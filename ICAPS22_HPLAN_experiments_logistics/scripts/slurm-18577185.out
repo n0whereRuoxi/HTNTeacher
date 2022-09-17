@@ -1,0 +1,153 @@
+begin
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_2_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem2-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.723
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_2_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem2-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.246
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_2_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem2-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.211
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_2_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem2-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.291
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_2_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem2-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.562
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_3_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem3-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.866
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_3_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem3-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.357
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_3_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem3-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.299
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_3_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem3-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.938
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_3_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem3-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.878
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_4_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem4-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.988
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_4_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem4-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.933
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_4_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem4-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.912
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_4_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem4-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.249
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_4_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem4-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.113
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_5_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem5-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+5.166
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_5_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem5-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+5.12
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_5_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem5-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+5.174
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_5_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem5-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+5.301
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_5_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem5-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+5.139
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_6_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem6-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+6.754
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_6_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem6-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+6.775
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_6_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem6-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+7.012
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_6_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem6-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+6.912
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_6_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem6-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+6.783
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/results_with_methods/logistics_original_prune_prec_7_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_logistics/logistics/problem7-0-htn.pddl

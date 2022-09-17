@@ -1,0 +1,93 @@
+begin
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_2_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.659
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_2_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.023
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_2_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.049
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_2_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.118
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_2_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+3.585
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_3_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+10.779
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_3_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+9.178
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_3_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+9.333
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_3_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+10.871
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_3_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+10.577
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_4_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+25.894
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_4_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+29.562
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_4_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+29.15
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_4_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+29.68
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_4_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+29.708
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_original_prune_5_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-0-htn.pddl

@@ -1,0 +1,9 @@
+begin
+/lustre/rli12314/HGN-Maker-MiniGrid/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_curriculum_2_0.pddl
+/lustre/rli12314/HGN-Maker-MiniGrid/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+2.066
+/lustre/rli12314/HGN-Maker-MiniGrid/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_curriculum_2_1.pddl
+/lustre/rli12314/HGN-Maker-MiniGrid/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-1-htn.pddl

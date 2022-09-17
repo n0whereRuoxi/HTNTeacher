@@ -1,0 +1,8 @@
+( defplan Satellite Problem2-0
+  ( !Turn_To sat000 dir001 dir000 )
+  ( !Switch_On inst000-000 sat000 )
+  ( !Calibrate sat000 inst000-000 dir001)
+  ( !Turn_To sat000 dir002 dir001 )
+  ( !Take_Image sat000 dir002 inst000-000 mode000 )
+)
+

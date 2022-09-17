@@ -1,0 +1,555 @@
+Doing one experiment in satellite domain, problem 1, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+    learning 0 5
+Doing one experiment in satellite domain, problem 1, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+    learning 0 5
+Doing one experiment in satellite domain, problem 1, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+    learning 0 5
+Doing one experiment in satellite domain, problem 1, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+    learning 0 5
+Doing one experiment in satellite domain, problem 1, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks1.pddl
+    learning 0 5
+Doing one experiment in satellite domain, problem 2, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+Doing one experiment in satellite domain, problem 2, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+Doing one experiment in satellite domain, problem 2, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+Doing one experiment in satellite domain, problem 2, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+Doing one experiment in satellite domain, problem 2, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks2.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+Doing one experiment in satellite domain, problem 3, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+Doing one experiment in satellite domain, problem 3, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+Doing one experiment in satellite domain, problem 3, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+Doing one experiment in satellite domain, problem 3, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+Doing one experiment in satellite domain, problem 3, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks3.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+Doing one experiment in satellite domain, problem 4, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+Doing one experiment in satellite domain, problem 4, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+Doing one experiment in satellite domain, problem 4, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+Doing one experiment in satellite domain, problem 4, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+Doing one experiment in satellite domain, problem 4, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks4.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+Doing one experiment in satellite domain, problem 5, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+Doing one experiment in satellite domain, problem 5, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+Doing one experiment in satellite domain, problem 5, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+Doing one experiment in satellite domain, problem 5, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+Doing one experiment in satellite domain, problem 5, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks5.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+Doing one experiment in satellite domain, problem 6, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+Doing one experiment in satellite domain, problem 6, try 1
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-1-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-1-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+Doing one experiment in satellite domain, problem 6, try 2
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-2-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-2-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+Doing one experiment in satellite domain, problem 6, try 3
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-3-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-3-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+Doing one experiment in satellite domain, problem 6, try 4
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-4-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem6-4-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks6.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+Doing one experiment in satellite domain, problem 7, try 0
+Reading strip domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_strips.pddl
+Reading strip problem file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem7-0-strips.pddl
+Reading strip solution file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem7-0-solution.plan
+Reading htn domain file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/domain_partial_htn.pddl
+Reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks7.pddl
+Reading task files for satellite domain with curriculum: 
+Reading task: task_Get-1Image.pddl
+Reading task: task_Get-2Image.pddl
+Reading task: task_Get-3Image.pddl
+Reading task: task_Get-4Image.pddl
+Reading task: task_Get-5Image.pddl
+Reading task: task_Get-6Image.pddl
+Reading task: task_Get-7Image.pddl
+ Done reading task file /lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/tasks7.pddl
+    learning 0 5
+    learning 5 11
+    learning 0 11
+    learning 11 17
+    learning 0 17
+    learning 17 23
+    learning 0 23
+    learning 23 29
+    learning 0 29
+    learning 29 35
+    learning 0 35
+    learning 35 41
+    learning 0 41
+/var/spool/slurmd/job18543960/slurm_script: line 2: 3846099 Killed                  /lustre/rli12314/HGNII/htn-maker --partial_generalization --no_subsumption --curriculum --soundness_check satellite
+slurmstepd: error: Exceeded step memory limit at some point.

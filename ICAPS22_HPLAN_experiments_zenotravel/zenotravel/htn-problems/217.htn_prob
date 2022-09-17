@@ -1,0 +1,46 @@
+( define ( htn-problem probname )
+
+  ( :domain zeno-travel )
+
+  ( :requirements :strips :htn :typing )
+
+  ( :objects
+    level00 - flevel
+    level01 - flevel
+    level02 - flevel
+    level03 - flevel
+    level04 - flevel
+    aircraft000 - aircraft
+    aircraft001 - aircraft
+    aircraft002 - aircraft
+    person000 - person
+    person001 - person
+    person002 - person
+    city000 - city
+    city001 - city
+    city002 - city
+  )
+
+  ( :init
+    ( next level00 level01 )
+    ( next level01 level02 )
+    ( next level02 level03 )
+    ( next level03 level04 )
+    ( aircraft-at aircraft000 city002 )
+    ( aircraft-at aircraft001 city001 )
+    ( aircraft-at aircraft002 city001 )
+    ( person-at person000 city000 )
+    ( person-at person001 city002 )
+    ( person-at person002 city001 )
+    ( fuel-level aircraft000 level01 )
+    ( fuel-level aircraft001 level00 )
+    ( fuel-level aircraft002 level00 )
+  )
+
+  ( :tasks
+    ( Travel person000 city000 )
+    ( Travel person001 city001 )
+    ( Travel person002 city000 )
+  )
+)
+

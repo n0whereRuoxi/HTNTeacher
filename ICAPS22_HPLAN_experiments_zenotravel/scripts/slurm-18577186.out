@@ -1,0 +1,778 @@
+begin
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_2_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city960 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city960 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person135 - PERSON aircraft000 - AIRCRAFT city960 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city960 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person135 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city960 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city960 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person21 - PERSON aircraft000 - AIRCRAFT city960 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city960 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person21 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 12
+2.201
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_2_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city446 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city446 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person158 - PERSON aircraft000 - AIRCRAFT city446 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city446 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person158 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city395 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city395 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person295 - PERSON aircraft000 - AIRCRAFT city395 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city395 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person295 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 12
+1.754
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_2_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city552 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city552 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person673 - PERSON aircraft000 - AIRCRAFT city552 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city552 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person673 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city244 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city244 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person444 - PERSON aircraft000 - AIRCRAFT city244 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city244 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person444 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 12
+1.763
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_2_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city313 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city313 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person213 - PERSON aircraft000 - AIRCRAFT city313 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city313 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person213 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city504 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city504 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person688 - PERSON aircraft000 - AIRCRAFT city504 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city504 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person688 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 12
+1.748
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_2_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem2-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city934 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city934 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person631 - PERSON aircraft000 - AIRCRAFT city934 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city934 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person631 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city934 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city934 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person615 - PERSON aircraft000 - AIRCRAFT city934 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city934 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person615 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 12
+1.722
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_3_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city972 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city972 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person141 - PERSON aircraft000 - AIRCRAFT city972 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city972 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person141 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city13 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city13 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person503 - PERSON aircraft000 - AIRCRAFT city13 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city13 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person503 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city609 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city609 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person640 - PERSON aircraft000 - AIRCRAFT city609 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city609 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person640 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 18
+2.437
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_3_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city278 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city278 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person612 - PERSON aircraft000 - AIRCRAFT city278 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city278 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person612 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city716 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city716 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person237 - PERSON aircraft000 - AIRCRAFT city716 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city716 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person237 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city716 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city716 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person772 - PERSON aircraft000 - AIRCRAFT city716 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city716 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person772 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 18
+2.604
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_3_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city186 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city186 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person325 - PERSON aircraft000 - AIRCRAFT city186 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city186 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person325 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city718 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city718 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person588 - PERSON aircraft000 - AIRCRAFT city718 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city718 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person588 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city718 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city718 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person395 - PERSON aircraft000 - AIRCRAFT city718 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city718 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person395 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 18
+2.52
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_3_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city66 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city66 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person586 - PERSON aircraft000 - AIRCRAFT city66 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city66 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person586 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city105 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city105 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person479 - PERSON aircraft000 - AIRCRAFT city105 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city105 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person479 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city902 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city902 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person990 - PERSON aircraft000 - AIRCRAFT city902 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city902 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person990 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 18
+2.346
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_3_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem3-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city526 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city526 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person248 - PERSON aircraft000 - AIRCRAFT city526 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city526 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person248 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city513 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city513 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person471 - PERSON aircraft000 - AIRCRAFT city513 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city513 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person471 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city491 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city491 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person810 - PERSON aircraft000 - AIRCRAFT city491 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city491 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person810 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 18
+2.338
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_4_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city859 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city859 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person20 - PERSON aircraft000 - AIRCRAFT city859 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city859 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person20 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city859 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city859 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person989 - PERSON aircraft000 - AIRCRAFT city859 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city859 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person989 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city529 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city529 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person447 - PERSON aircraft000 - AIRCRAFT city529 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city529 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person447 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city529 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city529 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person801 - PERSON aircraft000 - AIRCRAFT city529 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city529 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person801 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 24
+3.855
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_4_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city840 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city840 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person352 - PERSON aircraft000 - AIRCRAFT city840 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city840 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person352 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city840 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city840 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person603 - PERSON aircraft000 - AIRCRAFT city840 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city840 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person603 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city590 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city590 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person473 - PERSON aircraft000 - AIRCRAFT city590 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city590 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person473 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city144 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city144 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person558 - PERSON aircraft000 - AIRCRAFT city144 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city144 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person558 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 24
+4.369
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_4_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city35 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city35 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person549 - PERSON aircraft000 - AIRCRAFT city35 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city35 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person549 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city137 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city137 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person81 - PERSON aircraft000 - AIRCRAFT city137 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city137 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person81 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city137 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city137 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person693 - PERSON aircraft000 - AIRCRAFT city137 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city137 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person693 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city525 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city525 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person995 - PERSON aircraft000 - AIRCRAFT city525 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city525 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person995 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 24
+4.257
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_4_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city259 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city259 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person447 - PERSON aircraft000 - AIRCRAFT city259 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city259 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person447 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city787 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city787 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person601 - PERSON aircraft000 - AIRCRAFT city787 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city787 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person601 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city731 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city731 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person990 - PERSON aircraft000 - AIRCRAFT city731 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city731 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person990 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city817 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city817 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person384 - PERSON aircraft000 - AIRCRAFT city817 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city817 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person384 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 24
+2.99
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_4_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem4-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city429 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city429 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person810 - PERSON aircraft000 - AIRCRAFT city429 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city429 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person810 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city429 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city429 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person746 - PERSON aircraft000 - AIRCRAFT city429 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city429 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person746 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city855 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city855 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person430 - PERSON aircraft000 - AIRCRAFT city855 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city855 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person430 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city429 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city429 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person803 - PERSON aircraft000 - AIRCRAFT city429 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city429 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person803 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 24
+3.74
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_5_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city487 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city487 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person206 - PERSON aircraft000 - AIRCRAFT city487 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city487 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person206 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city221 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city221 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person438 - PERSON aircraft000 - AIRCRAFT city221 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city221 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person438 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city487 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city487 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person884 - PERSON aircraft000 - AIRCRAFT city487 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city487 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person884 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city40 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city40 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person763 - PERSON aircraft000 - AIRCRAFT city40 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city40 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person763 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city221 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city221 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person344 - PERSON aircraft000 - AIRCRAFT city221 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city221 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person344 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 30
+8.313
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_5_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city514 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city514 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person4 - PERSON aircraft000 - AIRCRAFT city514 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city514 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person4 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city451 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city451 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person676 - PERSON aircraft000 - AIRCRAFT city451 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city451 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person676 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city951 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city951 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person307 - PERSON aircraft000 - AIRCRAFT city951 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city951 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person307 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city451 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city451 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person733 - PERSON aircraft000 - AIRCRAFT city451 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city451 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person733 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city917 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city917 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person281 - PERSON aircraft000 - AIRCRAFT city917 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city917 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person281 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 30
+7.562
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_5_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city356 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city356 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person503 - PERSON aircraft000 - AIRCRAFT city356 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city356 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person503 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city587 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city587 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person303 - PERSON aircraft000 - AIRCRAFT city587 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city587 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person303 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city356 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city356 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person651 - PERSON aircraft000 - AIRCRAFT city356 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city356 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person651 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city356 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city356 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person224 - PERSON aircraft000 - AIRCRAFT city356 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city356 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person224 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city80 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city80 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person159 - PERSON aircraft000 - AIRCRAFT city80 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city80 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person159 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 30
+6.665
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_5_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city353 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city353 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person580 - PERSON aircraft000 - AIRCRAFT city353 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city353 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person580 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city453 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city453 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person692 - PERSON aircraft000 - AIRCRAFT city453 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city453 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person692 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city498 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city498 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person367 - PERSON aircraft000 - AIRCRAFT city498 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city498 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person367 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city822 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city822 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person390 - PERSON aircraft000 - AIRCRAFT city822 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city822 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person390 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city822 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city822 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person903 - PERSON aircraft000 - AIRCRAFT city822 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city822 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person903 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 30
+5.883
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_5_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem5-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city190 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city190 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person345 - PERSON aircraft000 - AIRCRAFT city190 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city190 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person345 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city190 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city190 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person750 - PERSON aircraft000 - AIRCRAFT city190 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city190 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person750 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city400 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city400 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person621 - PERSON aircraft000 - AIRCRAFT city400 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city400 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person621 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city190 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city190 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person391 - PERSON aircraft000 - AIRCRAFT city190 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city190 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person391 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city425 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city425 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person170 - PERSON aircraft000 - AIRCRAFT city425 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city425 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person170 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 30
+6.761
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_6_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem6-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city394 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city394 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person904 - PERSON aircraft000 - AIRCRAFT city394 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city394 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person904 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city366 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city366 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person616 - PERSON aircraft000 - AIRCRAFT city366 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city366 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person616 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city366 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city366 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person544 - PERSON aircraft000 - AIRCRAFT city366 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city366 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person544 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city716 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city716 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person400 - PERSON aircraft000 - AIRCRAFT city716 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city716 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person400 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city366 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city366 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person634 - PERSON aircraft000 - AIRCRAFT city366 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city366 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person634 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city716 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city716 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person786 - PERSON aircraft000 - AIRCRAFT city716 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city716 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person786 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 36
+24.584
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_6_1.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem6-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city111 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city111 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person844 - PERSON aircraft000 - AIRCRAFT city111 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city111 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person844 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city622 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city622 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person930 - PERSON aircraft000 - AIRCRAFT city622 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city622 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person930 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city847 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city847 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person909 - PERSON aircraft000 - AIRCRAFT city847 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city847 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person909 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city622 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city622 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person134 - PERSON aircraft000 - AIRCRAFT city622 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city622 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person134 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city847 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city847 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person891 - PERSON aircraft000 - AIRCRAFT city847 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city847 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person891 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city622 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city622 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person1 - PERSON aircraft000 - AIRCRAFT city622 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city622 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person1 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 36
+25.498
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_6_2.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem6-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city227 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city227 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person73 - PERSON aircraft000 - AIRCRAFT city227 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city227 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person73 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city317 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city317 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person442 - PERSON aircraft000 - AIRCRAFT city317 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city317 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person442 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city455 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city455 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person821 - PERSON aircraft000 - AIRCRAFT city455 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city455 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person821 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city324 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city324 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person495 - PERSON aircraft000 - AIRCRAFT city324 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city324 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person495 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city227 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city227 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person650 - PERSON aircraft000 - AIRCRAFT city227 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city227 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person650 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city324 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city324 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person317 - PERSON aircraft000 - AIRCRAFT city324 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city324 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person317 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 36
+20.749
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_6_3.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem6-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city896 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city896 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person870 - PERSON aircraft000 - AIRCRAFT city896 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city896 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person870 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city560 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city560 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person841 - PERSON aircraft000 - AIRCRAFT city560 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city560 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person841 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city896 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city896 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person569 - PERSON aircraft000 - AIRCRAFT city896 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city896 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person569 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city287 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city287 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person265 - PERSON aircraft000 - AIRCRAFT city287 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city287 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person265 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city323 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city323 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person752 - PERSON aircraft000 - AIRCRAFT city323 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city323 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person752 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city287 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city287 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person664 - PERSON aircraft000 - AIRCRAFT city287 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city287 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person664 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 36
+21.07
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_6_4.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem6-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city854 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city854 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person321 - PERSON aircraft000 - AIRCRAFT city854 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city854 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person321 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city244 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city244 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person121 - PERSON aircraft000 - AIRCRAFT city244 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city244 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person121 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city290 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city290 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person856 - PERSON aircraft000 - AIRCRAFT city290 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city290 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person856 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city54 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city54 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person57 - PERSON aircraft000 - AIRCRAFT city54 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city54 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person57 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city302 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city302 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person434 - PERSON aircraft000 - AIRCRAFT city302 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city302 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person434 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+	( !REFUEL aircraft000 - AIRCRAFT city000 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !FLY aircraft000 - AIRCRAFT city000 - CITY city854 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !REFUEL aircraft000 - AIRCRAFT city854 - CITY level000 - FLEVEL level001 - FLEVEL )
+	( !BOARD person895 - PERSON aircraft000 - AIRCRAFT city854 - CITY )
+	( !FLY aircraft000 - AIRCRAFT city854 - CITY city000 - CITY level001 - FLEVEL level000 - FLEVEL )
+	( !DEBARK person895 - PERSON aircraft000 - AIRCRAFT city000 - CITY )
+plan length: 36
+9.987
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/results_with_methods/zenotravel_curriculum_prune_7_0.pddl
+/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_zenotravel/zenotravel/problem7-0-htn.pddl

@@ -1,0 +1,44 @@
+( define ( problem probname )
+
+  ( :domain zeno-travel )
+
+  ( :requirements :strips :typing )
+
+  ( :objects
+    level00 - flevel
+    level01 - flevel
+    aircraft000 - aircraft
+    aircraft001 - aircraft
+    aircraft002 - aircraft
+    person000 - person
+    person001 - person
+    person002 - person
+    city000 - city
+    city001 - city
+    city002 - city
+    city003 - city
+    city004 - city
+  )
+
+  ( :init
+    ( next level00 level01 )
+    ( aircraft-at aircraft000 city004 )
+    ( aircraft-at aircraft001 city003 )
+    ( aircraft-at aircraft002 city000 )
+    ( person-at person000 city000 )
+    ( person-at person001 city003 )
+    ( person-at person002 city002 )
+    ( fuel-level aircraft000 level01 )
+    ( fuel-level aircraft001 level00 )
+    ( fuel-level aircraft002 level01 )
+  )
+
+  ( :goal
+    ( and
+      ( person-at person000 city000 )
+      ( person-at person001 city003 )
+      ( person-at person002 city000 )
+    )
+  )
+)
+

@@ -1,0 +1,65 @@
+begin
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_1_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir244 - DIRECTION dir834 - DIRECTION )
+	( !SWITCH_ON inst548 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst548 - INSTRUMENT dir244 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir262 - DIRECTION dir244 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir262 - DIRECTION inst548 - INSTRUMENT mode548 - MODE )
+plan length: 5
+1.986
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_1_1.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir86 - DIRECTION dir2 - DIRECTION )
+	( !SWITCH_ON inst754 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst754 - INSTRUMENT dir86 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir486 - DIRECTION dir86 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir486 - DIRECTION inst754 - INSTRUMENT mode754 - MODE )
+plan length: 5
+1.773
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_1_2.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir411 - DIRECTION dir160 - DIRECTION )
+	( !SWITCH_ON inst959 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst959 - INSTRUMENT dir411 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir183 - DIRECTION dir411 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir183 - DIRECTION inst959 - INSTRUMENT mode959 - MODE )
+plan length: 5
+1.849
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_1_3.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir916 - DIRECTION dir547 - DIRECTION )
+	( !SWITCH_ON inst904 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst904 - INSTRUMENT dir916 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir571 - DIRECTION dir916 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir571 - DIRECTION inst904 - INSTRUMENT mode904 - MODE )
+plan length: 5
+2.006
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_1_4.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir532 - DIRECTION dir876 - DIRECTION )
+	( !SWITCH_ON inst291 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst291 - INSTRUMENT dir532 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir663 - DIRECTION dir532 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir663 - DIRECTION inst291 - INSTRUMENT mode291 - MODE )
+plan length: 5
+1.794
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_2_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-0-htn.pddl
+debug: finding plan...
+slurmstepd: error: *** JOB 18531614 ON compute-b20-44 CANCELLED AT 2022-04-25T00:12:00 ***

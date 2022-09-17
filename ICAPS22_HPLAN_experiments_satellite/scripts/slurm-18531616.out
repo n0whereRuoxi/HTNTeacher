@@ -1,0 +1,153 @@
+begin
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_1_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-0-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir244 - DIRECTION dir834 - DIRECTION )
+	( !SWITCH_ON inst548 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst548 - INSTRUMENT dir244 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir262 - DIRECTION dir244 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir262 - DIRECTION inst548 - INSTRUMENT mode548 - MODE )
+plan length: 5
+1.965
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_1_1.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-1-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir86 - DIRECTION dir2 - DIRECTION )
+	( !SWITCH_ON inst754 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst754 - INSTRUMENT dir86 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir486 - DIRECTION dir86 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir486 - DIRECTION inst754 - INSTRUMENT mode754 - MODE )
+plan length: 5
+1.664
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_1_2.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-2-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir411 - DIRECTION dir160 - DIRECTION )
+	( !SWITCH_ON inst959 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst959 - INSTRUMENT dir411 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir183 - DIRECTION dir411 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir183 - DIRECTION inst959 - INSTRUMENT mode959 - MODE )
+plan length: 5
+1.713
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_1_3.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-3-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir916 - DIRECTION dir547 - DIRECTION )
+	( !SWITCH_ON inst904 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst904 - INSTRUMENT dir916 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir571 - DIRECTION dir916 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir571 - DIRECTION inst904 - INSTRUMENT mode904 - MODE )
+plan length: 5
+1.719
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_1_4.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem1-4-htn.pddl
+debug: finding plan...
+
+Plan found!
+	( !TURN_TO sat000 - SATELLITE dir532 - DIRECTION dir876 - DIRECTION )
+	( !SWITCH_ON inst291 - INSTRUMENT sat000 - SATELLITE )
+	( !CALIBRATE sat000 - SATELLITE inst291 - INSTRUMENT dir532 - DIRECTION )
+	( !TURN_TO sat000 - SATELLITE dir663 - DIRECTION dir532 - DIRECTION )
+	( !TAKE_IMAGE sat000 - SATELLITE dir663 - DIRECTION inst291 - INSTRUMENT mode291 - MODE )
+plan length: 5
+1.727
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_2_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.637
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_2_1.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.302
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_2_2.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.119
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_2_3.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.165
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_2_4.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem2-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+4.024
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_3_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+18.122
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_3_1.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+17.78
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_3_2.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+18.183
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_3_3.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+18.296
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_3_4.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem3-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+17.63
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_4_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-0-htn.pddl
+debug: finding plan...
+
+No legal plans.
+92.656
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_4_1.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-1-htn.pddl
+debug: finding plan...
+
+No legal plans.
+98.051
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_4_2.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-2-htn.pddl
+debug: finding plan...
+
+No legal plans.
+95.712
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_4_3.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-3-htn.pddl
+debug: finding plan...
+
+No legal plans.
+99.288
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_4_4.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem4-4-htn.pddl
+debug: finding plan...
+
+No legal plans.
+101.334
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/results_with_methods/satellite_original_prune_5_0.pddl
+/lustre/rli12314/HGNII/ICAPS22_HPLAN_experiments_Satellite/satellite/problem5-0-htn.pddl
