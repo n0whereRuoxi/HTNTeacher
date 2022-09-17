@@ -167,7 +167,7 @@ int DoExperiments(std::string l_sDomainName)
   std::string l_sPrec;
   std::string l_sComplete;
 
-  std::string l_sRootDir = "/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName+ "/results_with_methods";
+  std::string l_sRootDir = "/scratch/zt1/project/nau-lab/user/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName+ "/results_with_methods";
 
   if (l_sDomainName == "logistics") {
     l_iNumberOfProblems = 20;
@@ -245,7 +245,7 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
 
   std::string l_sPrecTaskName;
 
-  std::string l_sDir = "/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName + "/" + l_sDomainName + "/";
+  std::string l_sDir = "/scratch/zt1/project/nau-lab/user/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName + "/" + l_sDomainName + "/";
  
   if (g_iFlags & FLAG_PREC)
     l_sPrecTaskName = "_prec";
