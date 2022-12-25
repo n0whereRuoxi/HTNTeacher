@@ -53,7 +53,7 @@ bool TimeOut(std::clock_t c_start);
 void DoOneExperiment(std::string l_sDomainFile, std::string l_sProblemFile, 
   std::ofstream &l_oFile, std::ofstream &l_oFileMeta, int i, int j, std::clock_t c_start);
 
-int DoExperiments(std::string l_sDomainName);
+int DoExperiments(std::string l_sDomainName, int i, int j);
 
 bool g_bShowTrace;
 bool g_bUseQValues;
@@ -69,51 +69,52 @@ unsigned int g_iMaxDepth;
 
 int main( int argc, char * argv[] )
 {
-
-  std::cout << "begin" << std::endl;
-
+  std::cout << "Begin..." << std::endl;
   try{
-  std::string l_sDomainName;
-  try
-  {
-    TCLAP::CmdLine l_cCmd( "Find an HTN plan", ' ', "1.1" );
-    TCLAP::UnlabeledValueArg<std::string> l_aDomain( "domain", "Which domain?", true, "not_spec", "domain", l_cCmd );
-    TCLAP::SwitchArg l_aPrec( "y", "precondition", "Annotated tasks has precondition", l_cCmd, false );
-    TCLAP::SwitchArg l_aShowTrace( "t", "show_trace", "Show a full decomposition trace of the solution.", l_cCmd, false );
-    TCLAP::SwitchArg l_aManual( "x", "manual", "Manual methods.", l_cCmd, false );
-    TCLAP::SwitchArg l_aCurriculum( "c", "curriculum", "Teachable-HTN-Maker.", l_cCmd, false );
-    TCLAP::SwitchArg l_aPrune( "p", "prune", "Prune methods.", l_cCmd, false );
-    TCLAP::ValueArg<int> l_aMaxTime( "o", "timeout", "Determine when to timeout.", false, 50000, "int", l_cCmd );
-    TCLAP::SwitchArg l_aUseQValues( "q", "use_qvalues", "When decomposing a task, use the applicable method with lowest Q-value.", l_cCmd, false );
-    TCLAP::SwitchArg l_aUpdateQValues( "u", "update_qvalues", "After finding a solution, update the Q-values of the methods used.", l_cCmd, false );
-    TCLAP::SwitchArg l_aRandomSelection( "r", "random_selection", "Select applicable methods in random order.", l_cCmd, false );
-    TCLAP::ValueArg<int> l_aDebugLevel( "d", "debug_level", "Determine how much debug information to print (0-10).", false, 0, "int", l_cCmd );
-    TCLAP::ValueArg<unsigned int> l_aMaxDepth( "m", "max_depth", "Only pursue decomposition trees below this depth.", false, 99999, "unsigned int", l_cCmd );
+    std::string l_sDomainName;
+    int l_iProblem;
+    int l_iNum;
+    try
+    {
+      TCLAP::CmdLine l_cCmd( "Find an HTN plan", ' ', "1.1" );
+      TCLAP::UnlabeledValueArg<std::string> l_aDomain( "domain", "Which domain?", true, "not_spec", "domain", l_cCmd );
+      TCLAP::UnlabeledValueArg<int> l_aProblem( "problem", "Which problem?", true, 2, "problem", l_cCmd );
+      TCLAP::UnlabeledValueArg<int> l_aNum( "num", "Which num of problem?", true, 0, "num", l_cCmd );
+      TCLAP::SwitchArg l_aPrec( "y", "precondition", "Annotated tasks has precondition", l_cCmd, false );
+      TCLAP::SwitchArg l_aShowTrace( "t", "show_trace", "Show a full decomposition trace of the solution.", l_cCmd, false );
+      TCLAP::SwitchArg l_aManual( "x", "manual", "Manual methods.", l_cCmd, false );
+      TCLAP::SwitchArg l_aCurriculum( "c", "curriculum", "Teachable-HTN-Maker.", l_cCmd, false );
+      TCLAP::SwitchArg l_aPrune( "p", "prune", "Prune methods.", l_cCmd, false );
+      TCLAP::ValueArg<int> l_aMaxTime( "o", "timeout", "Determine when to timeout.", false, 50000, "int", l_cCmd );
+      TCLAP::SwitchArg l_aUseQValues( "q", "use_qvalues", "When decomposing a task, use the applicable method with lowest Q-value.", l_cCmd, false );
+      TCLAP::SwitchArg l_aUpdateQValues( "u", "update_qvalues", "After finding a solution, update the Q-values of the methods used.", l_cCmd, false );
+      TCLAP::SwitchArg l_aRandomSelection( "r", "random_selection", "Select applicable methods in random order.", l_cCmd, false );
+      TCLAP::ValueArg<int> l_aDebugLevel( "d", "debug_level", "Determine how much debug information to print (0-10).", false, 0, "int", l_cCmd );
+      TCLAP::ValueArg<unsigned int> l_aMaxDepth( "m", "max_depth", "Only pursue decomposition trees below this depth.", false, 99999, "unsigned int", l_cCmd );
 
-    l_cCmd.parse( argc, argv );
-    
-    l_sDomainName = l_aDomain.getValue();
-    g_bPrecondition = l_aPrec.getValue();
-    g_bShowTrace = l_aShowTrace.getValue();
-    g_bCurriculum = l_aCurriculum.getValue();
-    g_bManual = l_aManual.getValue();
-    g_bPrune = l_aPrune.getValue();
-    g_bUseQValues = l_aUseQValues.getValue();
-    g_bUpdateQValues = l_aUpdateQValues.getValue();
-    g_bRandomSelection = l_aRandomSelection.getValue();
-    g_iDebugLevel = l_aDebugLevel.getValue();
-    g_iMaxTime = l_aMaxTime.getValue();
-    g_iMaxDepth = l_aMaxDepth.getValue();
-  }
-  catch( TCLAP::ArgException &e )
-  {
-    std::cerr << "error: " << e.error() << " for arg " << e.argId() << std::endl;
-    return 1;
-  }
-
-
-  return DoExperiments(l_sDomainName);
-
+      l_cCmd.parse( argc, argv );
+      
+      l_sDomainName = l_aDomain.getValue();
+      l_iProblem = l_aProblem.getValue();
+      l_iNum = l_aNum.getValue();
+      g_bPrecondition = l_aPrec.getValue();
+      g_bShowTrace = l_aShowTrace.getValue();
+      g_bCurriculum = l_aCurriculum.getValue();
+      g_bManual = l_aManual.getValue();
+      g_bPrune = l_aPrune.getValue();
+      g_bUseQValues = l_aUseQValues.getValue();
+      g_bUpdateQValues = l_aUpdateQValues.getValue();
+      g_bRandomSelection = l_aRandomSelection.getValue();
+      g_iDebugLevel = l_aDebugLevel.getValue();
+      g_iMaxTime = l_aMaxTime.getValue();
+      g_iMaxDepth = l_aMaxDepth.getValue();
+    }
+    catch( TCLAP::ArgException &e )
+    {
+      std::cerr << "error: " << e.error() << " for arg " << e.argId() << std::endl;
+      return 1;
+    }
+    return DoExperiments(l_sDomainName, l_iProblem, l_iNum);
   }catch( Exception & e ){ std::cerr << "\n" << e.ToStr() << "\n"; return 1; }
 }
 
@@ -128,29 +129,14 @@ bool TimeOut(std::clock_t c_start)
   else return false;
 }
 
-int DoExperiments(std::string l_sDomainName)
+int DoExperiments(std::string l_sDomainName, int i, int j)
 {
 
   std::string l_sDomainFile;
   std::string l_sProblemFile;
-  int l_iNumberOfProblems;
-  int l_iNumberOfRunsPerProblem; 
   std::string l_sResultFileName;
   std::string l_sPrec;
-  std::string l_sRootDir = "/lustre/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName;
-
-  if (l_sDomainName == "logistics") {
-    l_iNumberOfProblems = 3;
-    l_iNumberOfRunsPerProblem = 50;
-  }
-  else if (l_sDomainName == "blocksworld") {
-    l_iNumberOfProblems = 40;
-    l_iNumberOfRunsPerProblem = 20;
-  }  
-  else {
-    l_iNumberOfProblems = 12;
-    l_iNumberOfRunsPerProblem = 5;
-  }
+  std::string l_sRootDir = "/scratch/zt1/project/nau-lab/user/rli12314/HTNTeacher/ICAPS23_experiments_" + l_sDomainName;
 
   if (g_bCurriculum){
     if (!g_bPrune)
@@ -179,33 +165,30 @@ int DoExperiments(std::string l_sDomainName)
   
 
   std::ofstream l_oPlanMeta;
-  l_oPlanMeta.open(l_sRootDir + "/results_with_methods" + "/planmeta" + "_" + l_sDomainName + "_" + l_sResultFileName +  l_sPrec + ".txt");
-  for (int i = 2; i < l_iNumberOfProblems + 1; i++) {
-    for (int j = 0; j < l_iNumberOfRunsPerProblem; j++) {
-     std::ofstream l_oPlan;
-      l_oPlan.open(l_sRootDir + "/results_with_methods" + "/plan" + "_" + l_sDomainName + "_" + l_sResultFileName +  l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".plan");
-      if (g_bManual) l_sDomainFile = l_sRootDir + "/results_with_methods" + "/" + l_sDomainName + "_" + l_sResultFileName + ".pddl";
-      else l_sDomainFile = l_sRootDir + "/results_with_methods" + "/" + l_sDomainName + "_" + l_sResultFileName + l_sPrec + "_" + std::to_string(i) + "_0" + ".pddl";
-      l_sProblemFile = l_sRootDir + "/" + l_sDomainName + "_test_set" + "/" + "problem" + std::to_string(i) + "-" + std::to_string(j) + "-htn.pddl";
-      std::clock_t c_start = std::clock();
-      try
-      {
-        DoOneExperiment(l_sDomainFile, l_sProblemFile, l_oPlan, l_oPlanMeta, i, j, c_start);
-      }
-      catch( FileReadException & e )
-      {
-        l_oPlan.close();
-        l_oPlanMeta.close();
-        return 0;
-      }
-      std::clock_t c_end = std::clock();
-      //if (i == 2 && j == 0) std::cout << l_pHtnDomain->ToPddl() << std::endl; //debugging
-      long double time_elapsed_ms = 1000.0 * (c_end-c_start) / CLOCKS_PER_SEC;
-      std::cout << time_elapsed_ms << std::endl;
-      l_oPlanMeta << time_elapsed_ms << std::endl;
-      l_oPlan.close();
-    }
+  l_oPlanMeta.open(l_sRootDir + "/results/plans" + "/plan" + "_" + l_sDomainName + "_" + l_sResultFileName +  l_sPrec + "_"  + std::to_string(i) + "_" + std::to_string(j) + ".txt");
+  std::ofstream l_oPlan;
+  l_oPlan.open(l_sRootDir + "/results/plans" + "/plan" + "_" + l_sDomainName + "_" + l_sResultFileName +  l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".plan");
+  if (g_bManual) l_sDomainFile = l_sRootDir + "/results" + "/" + l_sDomainName + "_" + l_sResultFileName + ".pddl";
+  else l_sDomainFile = l_sRootDir + "/results/methods" + "/" + l_sDomainName + "_" + l_sResultFileName + l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".pddl";
+  l_sProblemFile = l_sRootDir + "/" + l_sDomainName  + "/" + "problem" + std::to_string(i) + "-" + std::to_string(j) + "-htn.pddl";
+  std::clock_t c_start = std::clock();
+  try
+  {
+    DoOneExperiment(l_sDomainFile, l_sProblemFile, l_oPlan, l_oPlanMeta, i, j, c_start);
   }
+  catch( FileReadException & e )
+  {
+    std::cout << e.what() << std::endl;
+    l_oPlan.close();
+    l_oPlanMeta.close();
+    return 0;
+  }
+  std::clock_t c_end = std::clock();
+  //if (i == 2 && j == 0) std::cout << l_pHtnDomain->ToPddl() << std::endl; //debugging
+  long double time_elapsed_ms = 1000.0 * (c_end-c_start) / CLOCKS_PER_SEC;
+  std::cout << time_elapsed_ms << std::endl;
+  l_oPlanMeta << time_elapsed_ms << std::endl;
+  l_oPlan.close();
   l_oPlanMeta.close();
   return 0;
 }
@@ -219,10 +202,11 @@ void DoOneExperiment(std::string l_sDomainFile,
   std::clock_t c_start)
 {
 
+  std::cout << "DoOneExperiment " << num_i << " " << num_j << std::endl;
   std::tr1::shared_ptr< HtnDomain > l_pDomain;
   try
   {
-      std::cout << l_sDomainFile << std::endl;
+    std::cout << "Reading domain file: " << l_sDomainFile << std::endl;
     std::stringstream l_sDomainStream( ReadFile( l_sDomainFile ) );
     l_pDomain = std::tr1::shared_ptr< HtnDomain >( HtnDomain::FromPddl( l_sDomainStream ) );
   }
@@ -235,7 +219,7 @@ void DoOneExperiment(std::string l_sDomainFile,
   HtnSolution * l_pProblem = NULL;
   try
   {
-      std::cout << l_sProblemFile << std::endl;
+    std::cout << "Reading problem file: " << l_sProblemFile << std::endl;
     std::stringstream l_sProblemStream( ReadFile( l_sProblemFile ) );
     l_pProblem = HtnSolution::FromPddl( l_pDomain,
 					l_sProblemStream );

@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import statistics
 
-dir = "./ICAPS22_HPLAN_experiments_"
+dir = "./ICAPS23_experiments_"
 domains = ['logistics']
 modes = ['curriculum', 'original', 'minimum_manual']
 prune = [True]
@@ -14,7 +14,7 @@ for domain in domains:
     for mode in modes:
         for is_prune in prune:
             for has_precondition in prec:
-                with open(dir + domain + "/results_with_methods/planmeta_{}_{}{}{}.txt".format(domain, mode, '_prune' if is_prune else '', '_prec' if has_precondition else ''), newline='') as csvfile:
+                with open(dir + domain + "/results/planmeta_{}_{}{}{}.txt".format(domain, mode, '_prune' if is_prune else '', '_prec' if has_precondition else ''), newline='') as csvfile:
                     raw_results = csv.reader(csvfile, delimiter=',')
                     results = {}
                     for row in raw_results:

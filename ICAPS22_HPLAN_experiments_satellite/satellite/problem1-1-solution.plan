@@ -1,7 +1,0 @@
-( defplan satellite Prob1-1
-  ( !Turn_To sat000 dir181 dir55 )
-  ( !Switch_On inst644 sat000 )
-  ( !Calibrate sat000 inst644 dir181)
-  ( !Turn_To sat000 dir582 dir181)
-  ( !Take_Image sat000 dir582 inst644 mode644)
-)

@@ -105,7 +105,7 @@ void LearnOneNdChecker( unsigned int p_iInitState,
 
 HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int l_iTimesNumber);
 
-int DoExperiments(std::string l_sDomainName);
+int DoExperiments(std::string l_sDomainName, int i, int j);
 
 unsigned long g_iFlags;
 unsigned int g_iMaxMethodId;
@@ -114,10 +114,14 @@ char g_cMethodIdStr[8];
 int main( int argc, char * argv[] )
 {
   std::string l_sDomainName;
+  int l_iProblem;
+  int l_iNum;
 
   TCLAP::CmdLine l_cCmd( "Learn an HTN domain from a plan trace", ' ', "1.1" );
 
   TCLAP::UnlabeledValueArg<std::string> l_aDomain( "domain", "Which domain?", true, "not_spec", "domain", l_cCmd );
+  TCLAP::UnlabeledValueArg<int> l_aProblem( "problem", "Which problem?", true, 2, "problem", l_cCmd );
+  TCLAP::UnlabeledValueArg<int> l_aNum( "num", "Which num of problem?", true, 0, "num", l_cCmd );
 
   TCLAP::SwitchArg l_aComplete( "", "complete_curriculum_learning", "learn complete set of methods", l_cCmd, false );
 
@@ -137,6 +141,8 @@ int main( int argc, char * argv[] )
   l_cCmd.parse( argc, argv );
 
   l_sDomainName = l_aDomain.getValue();
+  l_iProblem = l_aProblem.getValue();
+  l_iNum = l_aNum.getValue();
 
   if( l_aComplete.getValue() ) g_iFlags |= FLAG_COMPLETE;
   if( l_aPrec.getValue() ) g_iFlags |= FLAG_PREC;
@@ -153,34 +159,23 @@ int main( int argc, char * argv[] )
   if( l_aNdCheckers.getValue() ) g_iFlags |= FLAG_ND_CHECKERS;
   if( l_aQValues.getValue() ) g_iFlags |= FLAG_QVALUES;
   try {
-    DoExperiments(l_sDomainName);
+    DoExperiments(l_sDomainName, l_iProblem, l_iNum);
   } catch( Exception & e ){ std::cerr << "\n" << e.ToStr() << "\n"; return 1; }
 }
 
-int DoExperiments(std::string l_sDomainName)
+int DoExperiments(std::string l_sDomainName, int i, int j)
 {
-  std::ofstream myfile;
+  std::ofstream resultFile;
   std::ofstream domainFile;
-  int l_iNumberOfProblems;
-  int l_iNumberOfRunsPerProblem; 
+
   std::string l_sResultFileName;
+  std::string l_sDomainFileName;
   std::string l_sPrec;
   std::string l_sComplete;
 
-  std::string l_sRootDir = "/scratch/zt1/project/nau-lab/user/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName+ "/results_with_methods";
+  std::string l_sRootDir = "/scratch/zt1/project/nau-lab/user/rli12314/HTNTeacher/ICAPS23_experiments_" + l_sDomainName+ "/results";
+  std::string l_sSaveRootDir = "/afs/shell.umd.edu/project/nau-lab/user/rli12314/ICAPS23EXP/ICAPS23_experiments_" + l_sDomainName+ "/results";
 
-  if (l_sDomainName == "logistics") {
-    l_iNumberOfProblems = 20;
-    l_iNumberOfRunsPerProblem = 5;
-  }
-  else if (l_sDomainName == "blocksworld") {
-    l_iNumberOfProblems = 40;
-    l_iNumberOfRunsPerProblem = 20;
-  }
-  else {
-    l_iNumberOfProblems = 15;
-    l_iNumberOfRunsPerProblem = 5;
-  }
   if (g_iFlags & FLAG_CURRICULUM){
     if (g_iFlags & FLAG_NO_SUBSUMPTION)
       l_sResultFileName = "curriculum";
@@ -210,27 +205,28 @@ int DoExperiments(std::string l_sDomainName)
   else
     l_sPrec = "";
 
-  myfile.open (l_sRootDir + "/" + l_sDomainName + l_sComplete + "_" + l_sResultFileName + l_sPrec + ".txt");
 
-  for (int i = 2; i < l_iNumberOfProblems + 1; i++) {
-    for (int j = 0; j < l_iNumberOfRunsPerProblem; j++) {
-//      if (i == 3 && j == 0) {
-        std::clock_t c_start = std::clock();
-        HtnDomain * l_pHtnDomain = DoOneExperiment(l_sDomainName, i, j);
-        int l_iNumMethods = l_pHtnDomain->GetNumMethods();
-        std::clock_t c_end = std::clock();
-//        std::cout << l_pHtnDomain->ToPddl() << std::endl; //debug
-//        std::cout << l_iNumMethods << std::endl; //debug
-        long double time_elapsed_ms = 1000.0 * (c_end-c_start) / CLOCKS_PER_SEC;
-        myfile << i << "," << j << "," << l_iNumMethods << "," << time_elapsed_ms << std::endl;
-        domainFile.open (l_sRootDir + "/" + l_sDomainName + l_sComplete + "_" + l_sResultFileName + l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".pddl");
-        domainFile << l_pHtnDomain->ToPddl() << std::endl;
-        delete l_pHtnDomain;
-        domainFile.close();
-//      }
-    }
-  }
-  myfile.close();
+  //      if (i == 3 && j == 0) {
+  std::clock_t c_start = std::clock();
+  HtnDomain * l_pHtnDomain = DoOneExperiment(l_sDomainName, i, j);
+  int l_iNumMethods = l_pHtnDomain->GetNumMethods();
+  std::clock_t c_end = std::clock();
+  //        std::cout << l_pHtnDomain->ToPddl() << std::endl; //debug
+  //        std::cout << l_iNumMethods << std::endl; //debug
+  long double time_elapsed_ms = 1000.0 * (c_end-c_start) / CLOCKS_PER_SEC;
+
+  resultFile.open(l_sRootDir + "/" + "methods/" + l_sDomainName + l_sComplete + "_" + l_sResultFileName + l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".txt");
+  resultFile << i << "," << j << "," << l_iNumMethods << "," << time_elapsed_ms << std::endl;
+  resultFile.close();
+
+  l_sDomainFileName = l_sRootDir + "/" + "methods/" + l_sDomainName + l_sComplete + "_" + l_sResultFileName + l_sPrec + "_" + std::to_string(i) + "_" + std::to_string(j) + ".pddl";
+  domainFile.open(l_sDomainFileName);
+  domainFile << l_pHtnDomain->ToPddl() << std::endl;
+
+  std::cout << "Done writing new methods to " << l_sDomainFileName << std::endl;
+  delete l_pHtnDomain;
+  domainFile.close();
+  return 1;
 }
 
 
@@ -245,7 +241,7 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
 
   std::string l_sPrecTaskName;
 
-  std::string l_sDir = "/scratch/zt1/project/nau-lab/user/rli12314/HGNIII/ICAPS22_HPLAN_experiments_" + l_sDomainName + "/" + l_sDomainName + "/";
+  std::string l_sDir = "/scratch/zt1/project/nau-lab/user/rli12314/HTNTeacher/ICAPS23_experiments_" + l_sDomainName + "/" + l_sDomainName + "/";
  
   if (g_iFlags & FLAG_PREC)
     l_sPrecTaskName = "_prec";
@@ -253,6 +249,7 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
     l_sPrecTaskName = "";
  
   l_sStripsDomainFile = l_sDir + "domain_strips.pddl";
+  std::cout << "Here: " << l_sStripsDomainFile << std::endl;
   l_sTasksFile = l_sDir + "tasks" + std::to_string(l_iProblemNumber) + l_sPrecTaskName + ".pddl";
   l_sProblemFile = l_sDir + "problem" + std::to_string(l_iProblemNumber) + "-" + std::to_string(l_iTimesNumber) + "-strips.pddl";
   l_sSolutionFile = l_sDir + "problem" + std::to_string(l_iProblemNumber) + "-" + std::to_string(l_iTimesNumber) + "-solution.plan";;
@@ -260,9 +257,6 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
 
   std::tr1::shared_ptr< StripsDomain > l_pStripsDomain;
   std::tr1::shared_ptr< StripsProblem > l_pStripsProblem;
-
-
-
 
   AnnotatedPlan * l_pStripsPlan = 0;
   HtnTaskList * l_pHtnTaskList = 0;
@@ -318,7 +312,7 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
 
   try
   {
-    std::cout << "Reading task file " << l_sTasksFile << std::endl;
+    std::cout << "Reading task file here" << l_sTasksFile << std::endl;
     l_pHtnTaskList = new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), ReadFile( l_sTasksFile ) ); 
     //import task files for curriculum
     if (g_iFlags & FLAG_CURRICULUM) {
@@ -326,21 +320,21 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
       if (l_sDomainName == "logistics") {
         std::cout << "Reading task files for logistics domain with curriculum: " << std::endl;
         for (int i = 1; i < l_iProblemNumber + 1; i++) {
-          std::cout << "Reading task: task_deliver" + std::to_string(i) + l_sPrecTaskName + ".pddl" << std::endl;
+          std::cout << "  Reading task: task_deliver" + std::to_string(i) + l_sPrecTaskName + ".pddl" << std::endl;
           l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), ReadFile( l_sDir + "task_deliver" + std::to_string(i) + l_sPrecTaskName + ".pddl" ) ) );
         }
       }
       else if (l_sDomainName == "blocksworld") {
         std::cout << "Reading task files for blocksworld domain with curriculum: " << std::endl;
         for (int i = 1; i < l_iProblemNumber + 1; i++) {
-          std::cout << "Reading task: task_Make-" + std::to_string(i) + "Pile.pddl" << std::endl;
+          std::cout << "  Reading task: task_Make-" + std::to_string(i) + "Pile.pddl" << std::endl;
           l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), ReadFile( l_sDir + "task_Make-" + std::to_string(i) + "Pile.pddl" ) ) );
         }
       }
       else if (l_sDomainName == "depots") {
         std::cout << "Reading task files for depots domain with curriculum: " << std::endl;
         for (int i = 1; i < l_iProblemNumber + 1; i++) {
-          std::cout << "Reading task: task_Make-" + std::to_string(i) + "Crate.pddl" << std::endl;
+          std::cout << "  Reading task: task_Make-" + std::to_string(i) + "Crate.pddl" << std::endl;
           l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), 
             ReadFile( l_sDir + "task_Make-" + std::to_string(i) + "Crate.pddl" ) ) );
         }
@@ -348,20 +342,25 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
       else if (l_sDomainName == "satellite") {
         std::cout << "Reading task files for satellite domain with curriculum: " << std::endl;
         for (int i = 1; i < l_iProblemNumber + 1; i++) {
-          std::cout << "Reading task: task_Get-" + std::to_string(i) + "Image.pddl"  << std::endl;
+          std::cout << "  Reading task: task_Get-" + std::to_string(i) + "Image.pddl"  << std::endl;
           l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), 
             ReadFile( l_sDir + "task_Get-" + std::to_string(i) + "Image.pddl" ) ) );
         }
       }
-      if (l_sDomainName == "zenotravel") {
-        std::cout << "Reading task files for logistics domain with curriculum: " << std::endl;
+      else if (l_sDomainName == "zenotravel") {
+        std::cout << "Reading task files for zenotravel domain with curriculum: " << std::endl;
         for (int i = 1; i < l_iProblemNumber + 1; i++) {
-          std::cout << "Reading task: task_Fly-" + std::to_string(i) + "Ppl.pddl" << std::endl;
+          std::cout << "  Reading task: task_Fly-" + std::to_string(i) + "Ppl.pddl" << std::endl;
           l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), ReadFile( l_sDir + "task_Fly-" + std::to_string(i) + "Ppl" + l_sPrecTaskName + ".pddl" ) ) );
         }
       }
+      if (l_sDomainName == "stacking") {
+        std::cout << "Reading task files for stacking domain with curriculum: " << std::endl;
+        std::cout << "  Reading task: task2.pddl" << std::endl;
+        l_vHtnTasks.push_back(new HtnTaskList( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *l_pHtnDomain ) ), ReadFile( l_sDir + "task2.pddl" ) ) );
+      }
     }
-  std::cout << " Done reading task files" << std::endl;
+  std::cout << "Done reading task files" << std::endl;
 
   }
 
@@ -425,6 +424,9 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
         LearnMethodsWithCurriculumStep(n*6-6, n*6, l_pStripsPlan,
                 l_vHtnTasks[0],
                 l_pHtnDomain );
+        LearnMethodsWithCurriculumStep(0, n*6, l_pStripsPlan,
+                l_vHtnTasks[n-1],
+                l_pHtnDomain );
       }
     }
     else if (l_sDomainName == "satellite") {
@@ -443,7 +445,7 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
                 l_pHtnDomain );
       }
     }    
-    if (l_sDomainName == "zenotravel") {
+    else if (l_sDomainName == "zenotravel") {
       LearnMethodsWithCurriculumStep(0,6, l_pStripsPlan,
                 l_vHtnTasks[0],
                 l_pHtnDomain );
@@ -455,6 +457,17 @@ HtnDomain * DoOneExperiment(std::string l_sDomainName, int l_iProblemNumber, int
                 l_vHtnTasks[n-1],
                 l_pHtnDomain );
       }
+    }
+    else if (l_sDomainName == "stacking") {
+      LearnMethodsWithCurriculumStep(4,6, l_pStripsPlan,
+                l_vHtnTasks[0],
+                l_pHtnDomain );
+      LearnMethodsWithCurriculumStep(2,6, l_pStripsPlan,
+                l_vHtnTasks[0],
+                l_pHtnDomain );
+      LearnMethodsWithCurriculumStep(0,6, l_pStripsPlan,
+                l_vHtnTasks[0],
+                l_pHtnDomain );
     }
     // else {
     //   LearnMethodsWithCurriculumStep(0,3, l_pStripsPlan,
@@ -527,6 +540,9 @@ std::vector< PartialHtnMethod * > * GetPartials( const HtnDomain * p_pDomain,
         // The effects must have just become true.
         if( !p_pPlan->GetCState( p_iStateIndex - 1 )->IsConsistent( l_pGroundEffects ) )
         {
+
+          std::cout << "task name: " << p_pTasks->at( j )->GetCHead()->ToStr() << std::endl;
+          std::cout << "sub: " << l_pSubs->at( k )->ToStr() << std::endl;
           PartialHtnMethod * l_pNewPart = new PartialHtnMethod( std::tr1::shared_ptr< HtnDomain >( new HtnDomain( *p_pDomain ) ), p_pTasks->at( j ), l_pSubs->at( k ), p_iStateIndex );
           l_pRet->push_back( l_pNewPart );
         }
@@ -626,12 +642,15 @@ void LearnIncompleteMethodsWithCurriculumStep( unsigned int p_iInitState, unsign
 	      l_bLearn = false;
       }
     }
-    if( l_bLearn )
+    if( l_bLearn ) {
+      std::cout << "Learning from: " << p_iInitState << " " <<p_iFinalState << std::endl;
+      std::cout << l_pPartials->at(i)->GetCTaskSubs()->ToStr() << std::endl;
       LearnFromExactSequence( p_iInitState,
 			      p_iFinalState,
 			      p_pPlan,
 			      p_pHtnDomain,
 			      l_pPartials->at(i) );
+    }
   }
   for( unsigned int l_iCurPartial = 0; l_iCurPartial < l_pPartials->size(); l_iCurPartial++ )
     delete l_pPartials->at( l_iCurPartial );
@@ -817,7 +836,7 @@ void LearnFromExactSequence( unsigned int p_iInitState,
 
 	      if( l_pTemp->size() > 0 )
 	      { 
-          for (Substitution * sub : *l_pTemp)
+          //for (Substitution * sub : *l_pTemp) // why did I have this line?
 	        l_bDrop = true;
 	        p_pPlan->AddMethodInst( p_pPlan->GetCMethod( l_iCurMethod ), l_pTemp->at( 0 ), p_iInitState, p_iFinalState, p_pPlan->GetCTaskDescr( l_iCurMethod ), p_pPlan->GetCMethodEffects( l_iCurMethod ), p_pPlan->GetMethodCost( l_iCurMethod ) );
 	        //todo This may not exactly be the correct cost to use here, since we would have been learning a method with higher cost.

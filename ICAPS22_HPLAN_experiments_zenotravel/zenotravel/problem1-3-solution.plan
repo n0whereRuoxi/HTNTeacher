@@ -1,8 +1,0 @@
-( defplan zenotravel Prob1-3
-  ( !Refuel aircraft000 city000 level000 level001 )
-  ( !Fly aircraft000 city000 city95 level001 level000 )
-  ( !Refuel aircraft000 city95 level000 level001 )
-  ( !Board person529 aircraft000 city95 )
-  ( !Fly aircraft000 city95 city000 level001 level000 )
-  ( !Debark person529 aircraft000 city000 )
-)

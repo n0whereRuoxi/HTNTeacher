@@ -3,14 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import statistics
 
-dir = "./ICAPS22_HPLAN_experiments_"
+dir = "./ICAPS23_experiments_"
 domains = ['logistics']
 modes = ['curriculum', 'original']
-# curriculum = [True, False]
-prune = [True]
+prune = [True, False]
 plot = ['run_time', 'number_of_methods']
-# complete = [True,False]
-prec = [True]
+prec = [True, False]
 for domain in domains:
     fig, axs = plt.subplots(2)
     axs[0].errorbar([2,3], [5,6], yerr=[0,0], 
@@ -21,7 +19,7 @@ for domain in domains:
     for has_prec in prec:
         for mode in modes:
             for is_prune in prune:
-                with open(dir + domain + "/results_with_methods/{}_{}{}{}.txt".format(domain, mode, '_prune' if is_prune else '', '_prec' if has_prec else ''), newline='') as csvfile:
+                with open(dir + domain + "/results/{}_{}{}{}.txt".format(domain, mode, '_prune' if is_prune else '', '_prec' if has_prec else ''), newline='') as csvfile:
                     raw_results = csv.reader(csvfile, delimiter=',')
                     results = {}
                     for row in raw_results:
